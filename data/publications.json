@@ -1,0 +1,386 @@
+{
+  "published": [
+    {
+      "title": "AdaML: Adaptive Meta-Learning for Generalizable Sparse-View CT Reconstruction",
+      "authors": "Guodong Li, Tianli Liao, Kun Shang, Ce Wang*",
+      "venue": "Computerized Medical Imaging and Graphics",
+      "year": 2026,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://authors.elsevier.com/sd/article/S0895-6111%2826%2900142-4"
+        },
+        {
+          "label": "CODE",
+          "url": "https://github.com/Stth-er/AdaML"
+        }
+      ]
+    },
+    {
+      "title": "Scattering-Aware Implicit Neural Representation for CT Metal Artifact Reduction",
+      "authors": "Ruibo Wang, Junran Yang, Zhangling Chen, Ce Wang, Kun Shang*",
+      "venue": "IEEE Signal Processing Letters",
+      "year": 2026,
+      "links": []
+    },
+    {
+      "title": "Leveraging Unlabeled Data via Semi-Supervised Contrastive Learning for Enhanced Monocular Depth Estimation",
+      "authors": "Yuhua Zhong, You Hao, Tianli Liao, Ce Wang*",
+      "venue": "Pattern Recognition",
+      "year": 2026,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0031320326019485"
+        },
+        {
+          "label": "CODE",
+          "url": "https://github.com/Ketin12138/TriConDepth"
+        }
+      ]
+    },
+    {
+      "title": "Contrastive Learning for Semi-Supervised Deep Regression with Generalized Ordinal Rankings from Spectral Seriation",
+      "authors": "Ce Wang, Weihang Dai#, Hanru Bai, Xiaomeng Li*",
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "year": 2026,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41284425/"
+        },
+        {
+          "label": "CODE",
+          "url": "https://github.com/cewang-sysu/CLSS"
+        }
+      ]
+    },
+    {
+      "title": "DyGLNet: Hybrid Global-Local Feature Fusion with Dynamic Upsampling for Medical Image Segmentation",
+      "authors": "Yican Zhao, Ce Wang, You Hao, Lei Li, Tianli Liao*",
+      "venue": "Pattern Recognition",
+      "year": 2025,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0031320325014554"
+        }
+      ]
+    },
+    {
+      "title": "Cross-Modal Causal Representation Learning for Radiology Report Generation",
+      "authors": "Weixing Chen, Yang Liu, Ce Wang, Jiarui Zhu, Liang Lin*",
+      "venue": "IEEE Transactions on Image Processing",
+      "year": 2025,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2303.09117.pdf"
+        },
+        {
+          "label": "CODE",
+          "url": "https://github.com/WissingChen/VLCI"
+        }
+      ]
+    },
+    {
+      "title": "Parallax-tolerant Image Stitching via Multi-homography Warping",
+      "authors": "Tianli Liao, Ce Wang#, Lei Li, Guangen Liu, Nan Li*",
+      "venue": "Signal Processing",
+      "year": 2024,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0165168424004808"
+        },
+        {
+          "label": "CODE",
+          "url": "https://github.com/tlliao/multi-homo-warp"
+        }
+      ]
+    },
+    {
+      "title": "Surface profile recovery from electromagnetic field with physics-informed neural networks",
+      "authors": "Yuxuan Chen, Ce Wang#, Yuan Hui#, Mark Spivack",
+      "venue": "Remote Sensing",
+      "year": 2024,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://www.mdpi.com/2072-4292/16/22/4124"
+        },
+        {
+          "label": "CODE",
+          "url": "https://github.com/yc397/pinn_rough_surface"
+        }
+      ]
+    },
+    {
+      "title": "F2IFlow for CT metal artifact reduction",
+      "authors": "Jiandong Su, Ce Wang#, Yinsheng Li, Kun Shang*, Dong Liang*",
+      "venue": "IEEE Transactions on Computational Imaging",
+      "year": 2024,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://ieeexplore.ieee.org/abstract/document/10741004"
+        }
+      ]
+    },
+    {
+      "title": "CTspine1k: A large-scale dataset for spinal vertebrae segmentation in computed tomography",
+      "authors": "Yang Deng, Ce Wang, ... & S. Kevin Zhou*",
+      "venue": "MICCAI Open Data and MELBA Journal",
+      "year": 2022,
+      "links": [
+        {
+          "label": "CODE",
+          "url": "https://github.com/MIRACLE-Center/CTSpine1K"
+        }
+      ]
+    },
+    {
+      "title": "3DGPS: A 3D Differentiable-Gaussian-based Planning Strategy for Liver Tumor Cryoablation",
+      "authors": "Ce Wang, Xiaoyu Huang#, Yaqing Kong#, Qian Li#, Hua Li, You Hao*, Xiang Zhou*",
+      "venue": "International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)",
+      "year": 2024,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://link.springer.com/chapter/10.1007/978-3-031-72089-5_1"
+        }
+      ]
+    },
+    {
+      "title": "Unsupervised Poluchromatic Neural Representation for CT Metal Artifact Reduction",
+      "authors": "Qing Wu, Lixuan Chen, Ce Wang, Hongjiang Wei, S. Kevin Zhou, Jingyi Yu, Yuyao Zhang*",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/dbf02b21d77409a2db30e56866a8ab3a-Paper-Conference.pdf"
+        },
+        {
+          "label": "CODE",
+          "url": "https://github.com/iwuqing/Polyner"
+        }
+      ]
+    },
+    {
+      "title": "Active CT Reconstruction with a Learned Sampling Policy",
+      "authors": "Ce Wang, Kun Shang#, Haimiao Zhang, Shang Zhao, Dong Liang, S. Kevin Zhou*",
+      "venue": "ACM MM",
+      "year": 2023,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://dl.acm.org/doi/abs/10.1145/3581783.3611746"
+        }
+      ]
+    },
+    {
+      "title": "TRCA-Net: Using TRCA filters to boost the SSVEP classification with convolutional neural network",
+      "authors": "Yang Deng, Qingyu Sun, Ce Wang, Yijun Wang*, S. Kevin Zhou*",
+      "venue": "Journal of Neural Engineering",
+      "year": 2023,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ace380/meta"
+        },
+        {
+          "label": "CODE",
+          "url": "https://github.com/Sungden/TRCA-Net"
+        }
+      ]
+    },
+    {
+      "title": "Transforming medical imaging with Transformers? A comparative review of key properties, current progresses, and future perspectives",
+      "authors": "Jun Li#, Junyu Chen#, Yucheng Tang#, Ce Wang, Bennett A. Landman, S. Kevin Zhou*",
+      "venue": "Medical Image Analysis",
+      "year": 2023,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1361841523000233"
+        }
+      ]
+    },
+    {
+      "title": "DuDoTrans: Dual-Domain Transformer Provides More Attention for Sinogram Restoration in Sparse-View CT Reconstruction",
+      "authors": "Ce Wang, Kun Shang, Haimiao Zhang, Qian Li, Yuan Hui, S. Kevin Zhou*",
+      "venue": "International Conference on Medical Image Computing and Computer-Assisted Intervention Workshop (MICCAIW)",
+      "year": 2022,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://link.springer.com/chapter/10.1007/978-3-031-17247-2_9"
+        },
+        {
+          "label": "CODE",
+          "url": "https://github.com/mars11121/DuDoTrans"
+        }
+      ]
+    },
+    {
+      "title": "Decoupled R-CNN: Sensitivity-Specific Detector for Higher Accurate Localization",
+      "authors": "Dong Wang, Kun Shang*, Huaming Wu, Ce Wang",
+      "venue": "IEEE Transactions on Circuits Systems and Video Technology",
+      "year": 2022,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://ieeexplore.ieee.org/document/9756503"
+        },
+        {
+          "label": "CODE",
+          "url": "https://github.com/shouwangzhe134/Decoupled-R-CNN"
+        }
+      ]
+    },
+    {
+      "title": "Improving Generalizability in Limited-Angle CT Reconstruction with Sinogram Extrapolation",
+      "authors": "Ce Wang, Haimiao Zhang, Qian Li, Kun Shang, Yuanyuan Lyu, Bin Dong, S. Kevin Zhou*",
+      "venue": "International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)",
+      "year": 2021,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://link.springer.com/chapter/10.1007/978-3-030-87231-1_9"
+        },
+        {
+          "label": "CODE",
+          "url": "https://github.com/mars11121/EPNet"
+        }
+      ]
+    },
+    {
+      "title": "DMGAN: discriminative metric-based generative adversarial networks",
+      "authors": "Zhangling Chen, Ce Wang*, Huaming Wu, Kun Shang, Jun Wang",
+      "venue": "Knowledge-Based Systems",
+      "year": 2020,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0950705119306227"
+        }
+      ]
+    },
+    {
+      "title": "Label-removed generative adversarial networks incorporating with K-Means",
+      "authors": "Ce Wang, Zhangling Chen*, Kun Shang, Huaming Wu",
+      "venue": "Neurocomputing",
+      "year": 2019,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "http://huamingwu.cn/PDF/Neurocomputing2.pdf"
+        }
+      ]
+    }
+  ],
+  "preprints": [
+    {
+      "title": "Physics-aware Decoupled Distillation with Flow-based Synthesis for Robust Monocular Depth Estimation",
+      "authors": "Yuhua Zhong, Tianli Liao, Kun Shang, Huaming Wu, Ce Wang*",
+      "venue": "Submitted",
+      "year": 2026,
+      "links": []
+    },
+    {
+      "title": "SemDG: Exploring Diverse Styles with Semantic Guidance for Domain Generalization",
+      "authors": "Guodong Li, Tianli Liao, Huijun Tang, Kun Shang, Ce Wang*",
+      "venue": "Submitted",
+      "year": 2026,
+      "links": []
+    },
+    {
+      "title": "Feasibility-guided Reinforcement Learning with Radius-decoupled Oriented Distance Fields for Liver Tumor Cryoablation",
+      "authors": "Hongdong Deng, Xiaoyu Huang, Yuhua Zhong, You Hao, Xiang Zhou, Ce Wang*",
+      "venue": "Submitted",
+      "links": []
+    },
+    {
+      "title": "3DGPSv2: A Generalized Differentiable Gaussian Framework for Planning in Radical and Debulking Liver Tumor Cryoablation",
+      "authors": "You Hao, Xiaoyu Huang, Qian Li, Hongdong Deng, Hu Han, Ce Wang*, Xiang Zhou*",
+      "venue": "Submitted",
+      "year": 2026,
+      "links": []
+    },
+    {
+      "title": "S2MeR: Self-Supervised Mesh-Based Video Retargeting with Temporal and Geometric Consistency",
+      "authors": "Tianli Liao, Ran Wang, Siqing Zhang, Guangen Liu, Lei Li, Ce Wang",
+      "venue": "Submitted",
+      "year": 2026,
+      "links": []
+    },
+    {
+      "title": "Multi-Strength Multi-Synaptic Firing Neuron for Expressive Spiking Neural Networks",
+      "authors": "Binghao Ye, Wenjuan Li, Man Yao, Ce Wang, Bing Li, Weiming Hu, Dong Liang, Kun Shang*",
+      "venue": "Submitted",
+      "year": 2026,
+      "links": []
+    },
+    {
+      "title": "3D endoscopic depth estimation using 3D surface-aware constraints",
+      "authors": "Shang Zhao, Ce Wang, Qiyuan Wang, S. Kevin Zhou*",
+      "venue": "arXiv preprint arXiv:2203.02131",
+      "year": 2022,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/abs/2203.02131"
+        }
+      ]
+    },
+    {
+      "title": "Universal Segmentation of 33 Anatomies",
+      "authors": "Pengbo Liu, Yang Deng, Ce Wang, ... & S. Kevin Zhou*",
+      "venue": "arXiv preprint arXiv:2203.02098",
+      "year": 2022,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/abs/2203.02098"
+        }
+      ]
+    },
+    {
+      "title": "First image then video: A two-stage network for spatiotemporal video denoising",
+      "authors": "Ce Wang, S. Kevin Zhou*, Zhiwei Cheng",
+      "venue": "arXiv preprint arXiv:2001.00346",
+      "year": 2020,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/abs/2001.00346"
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "CTSpine1K: A Large-Scale Dataset for Spinal Vertebrae Segmentation in Computed Tomography",
+      "authors": "Yang Deng, Ce Wang, Yuan Hui, Qian Li, ... & S. Kevin Zhou*",
+      "venue": "Dataset",
+      "year": 2021,
+      "links": [
+        {
+          "label": "Available Online",
+          "url": "https://github.com/MIRACLE-Center/CTSpine1K"
+        }
+      ]
+    },
+    {
+      "title": "The code for reproducing MAR (Metal Artifact Reduction) dataset",
+      "venue": "Dataset",
+      "links": [
+        {
+          "label": "Available Online",
+          "url": "https://github.com/MIRACLE-Center/DuDoNet"
+        }
+      ]
+    }
+  ]
+}
