@@ -70,7 +70,15 @@ async function renderPublications() {
         if (paper.authors) {
           const authors = document.createElement('span');
           authors.className = 'publication-authors';
-          authors.textContent = paper.authors;
+          let previous = 0;
+          for (const match of paper.authors.matchAll(/\bCe Wang\b/g)) {
+            authors.append(paper.authors.slice(previous, match.index));
+            const name = document.createElement('strong');
+            name.textContent = match[0];
+            authors.append(name);
+            previous = match.index + match[0].length;
+          }
+          authors.append(paper.authors.slice(previous));
           body.append(authors);
         }
         const venueText = [paper.venue, paper.year].filter(Boolean).join(' · ');
