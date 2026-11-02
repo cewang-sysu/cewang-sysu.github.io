@@ -15,6 +15,36 @@ if (menuButton && nav) {
   });
 }
 
+// The public mirror stores photographs as text so they can be maintained in GitHub's web editor.
+async function loadPhoto(name) {
+  const response = await fetch(`./assets/${name}.b64`);
+  if (!response.ok) throw new Error(`Photo ${name}: HTTP ${response.status}`);
+  return `data:image/jpeg;base64,${(await response.text()).replace(/\s+/g, '')}`;
+}
+
+const hero = document.querySelector('.hero');
+const heroNames = {
+  'hero--home': 'home-hero',
+  'hero--publications': 'publications-hero',
+  'hero--cv': 'cv-hero',
+  'hero--interests': 'interests-hero',
+};
+for (const [className, name] of Object.entries(heroNames)) {
+  if (hero?.classList.contains(className)) {
+    loadPhoto(name)
+      .then(src => hero.style.setProperty('--hero-image', `url("${src}")`))
+      .catch(error => console.error('Unable to load hero photo:', error));
+    break;
+  }
+}
+
+for (const img of document.querySelectorAll('img[src^="./assets/"]')) {
+  const name = img.getAttribute('src').split('/').at(-1).replace(/\.jpg$/, '');
+  loadPhoto(name)
+    .then(src => { img.src = src; })
+    .catch(error => console.error('Unable to load page photo:', error));
+}
+
 async function renderPublications() {
   const targets = {
     published: document.querySelector('#published-list'),
