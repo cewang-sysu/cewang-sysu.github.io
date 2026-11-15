@@ -1,18 +1,6 @@
 {
   "published": [
     {
-      "title": "Scattering-Aware Implicit Neural Representation for CT Metal Artifact Reduction",
-      "authors": "Ruibo Wang, Junran Yang, Ziyi Shen, Zhangling Chen, Ce Wang, Dong Liang*, Kun Shang*",
-      "venue": "IEEE Signal Processing Letters",
-      "year": 2026,
-      "links": [
-        {
-          "label": "PDF",
-          "url": "https://ieeexplore.ieee.org/abstract/document/11782782/"
-        },
-      ]
-    },
-    {
       "title": "AdaML: Adaptive Meta-Learning for Generalizable Sparse-View CT Reconstruction",
       "authors": "Guodong Li, Tianli Liao, Kun Shang, Ce Wang*",
       "venue": "Computerized Medical Imaging and Graphics",
